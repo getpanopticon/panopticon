@@ -3225,23 +3225,23 @@ msgstr "Целостность ядра"
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_NEVER_RUN"
-msgid "The core files have not been checked yet"
-msgstr "Основные файлы ещё не проверялись"
+msgid "The core files have not been checked yet."
+msgstr "Основные файлы ещё не проверялись."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_OK"
-msgid "No modified core files were found"
-msgstr "Изменённых основных файлов не найдено"
+msgid "No modified core files were found."
+msgstr "Изменённых основных файлов не найдено."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N"
-msgid "%d core files have been modified"
-msgstr "Изменённых основных файлов: %d"
+msgid "%d core files have been modified."
+msgstr "Изменённых основных файлов: %d."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N_1"
-msgid "One core file has been modified"
-msgstr "Изменён один основной файл"
+msgid "One core file has been modified."
+msgstr "Изменён один основной файл."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_LATEST_FAILED"
@@ -3250,8 +3250,8 @@ msgstr "Последняя попытка проверки не удалась, 
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_FAILED"
-msgid "The last core file integrity check failed"
-msgstr "Последняя проверка целостности основных файлов не выполнена"
+msgid "The last core file integrity check failed."
+msgstr "Последняя проверка целостности основных файлов не выполнена."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_UPTIME_UP"

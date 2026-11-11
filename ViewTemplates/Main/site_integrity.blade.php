@@ -41,9 +41,14 @@ $integrity = CoreChecksumsState::fromConfig($config, $item->cmsType());
     ?>
     <a href="@route(sprintf('index.php?view=corechecksums&site_id=%d', $item->getId()))"
        class="text-decoration-none">
-        <span class="fa fa-fw fa-triangle-exclamation text-warning" aria-hidden="true"
+        <span class="position-relative d-inline-block" aria-hidden="true"
               data-bs-toggle="tooltip" data-bs-title="{{{ $problemsText }}}"
-        ></span>
+        >
+            <span class="fa fa-fw fa-triangle-exclamation text-warning"></span>
+            @if($integrity['latestAttemptFailed'])
+                <span class="fa fa-circle-xmark fa-xs text-danger position-absolute top-0 start-100 translate-middle"></span>
+            @endif
+        </span>
         <span class="visually-hidden">{{{ $problemsText }}}</span>
     </a>
 @else

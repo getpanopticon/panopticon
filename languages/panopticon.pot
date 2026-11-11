@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.5.0\n"
-"POT-Creation-Date: 2026-11-07 10:13:20\n"
+"POT-Creation-Date: 2026-11-11 11:35:21\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3239,22 +3239,22 @@ msgstr ""
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_NEVER_RUN"
-msgid "The core files have not been checked yet"
+msgid "The core files have not been checked yet."
 msgstr ""
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_OK"
-msgid "No modified core files were found"
+msgid "No modified core files were found."
 msgstr ""
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N"
-msgid "%d core files have been modified"
+msgid "%d core files have been modified."
 msgstr ""
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N_1"
-msgid "One core file has been modified"
+msgid "One core file has been modified."
 msgstr ""
 
 #, phpformat
@@ -3264,7 +3264,7 @@ msgstr ""
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_FAILED"
-msgid "The last core file integrity check failed"
+msgid "The last core file integrity check failed."
 msgstr ""
 
 #, phpformat

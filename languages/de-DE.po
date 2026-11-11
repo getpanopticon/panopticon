@@ -3240,23 +3240,23 @@ msgstr "Kern-Integrität"
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_NEVER_RUN"
-msgid "The core files have not been checked yet"
-msgstr "Die Kerndateien wurden noch nicht geprüft"
+msgid "The core files have not been checked yet."
+msgstr "Die Kerndateien wurden noch nicht geprüft."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_OK"
-msgid "No modified core files were found"
-msgstr "Es wurden keine geänderten Kerndateien gefunden"
+msgid "No modified core files were found."
+msgstr "Es wurden keine geänderten Kerndateien gefunden."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N"
-msgid "%d core files have been modified"
-msgstr "%d Kerndateien wurden geändert"
+msgid "%d core files have been modified."
+msgstr "%d Kerndateien wurden geändert."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N_1"
-msgid "One core file has been modified"
-msgstr "Eine Kerndatei wurde geändert"
+msgid "One core file has been modified."
+msgstr "Eine Kerndatei wurde geändert."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_LATEST_FAILED"
@@ -3265,8 +3265,8 @@ msgstr "Der letzte Prüfversuch ist fehlgeschlagen, daher sind diese Information
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_FAILED"
-msgid "The last core file integrity check failed"
-msgstr "Die letzte Kern-Dateiintegritätsprüfung ist fehlgeschlagen"
+msgid "The last core file integrity check failed."
+msgstr "Die letzte Kern-Dateiintegritätsprüfung ist fehlgeschlagen."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_UPTIME_UP"

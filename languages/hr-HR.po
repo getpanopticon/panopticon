@@ -3225,23 +3225,23 @@ msgstr "Integritet jezgre"
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_NEVER_RUN"
-msgid "The core files have not been checked yet"
-msgstr "Datoteke jezgre još nisu provjerene"
+msgid "The core files have not been checked yet."
+msgstr "Datoteke jezgre još nisu provjerene."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_OK"
-msgid "No modified core files were found"
-msgstr "Nisu pronađene izmijenjene datoteke jezgre"
+msgid "No modified core files were found."
+msgstr "Nisu pronađene izmijenjene datoteke jezgre."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N"
-msgid "%d core files have been modified"
-msgstr "Izmijenjene datoteke jezgre: %d"
+msgid "%d core files have been modified."
+msgstr "Izmijenjene datoteke jezgre: %d."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N_1"
-msgid "One core file has been modified"
-msgstr "Izmijenjena je jedna datoteka jezgre"
+msgid "One core file has been modified."
+msgstr "Izmijenjena je jedna datoteka jezgre."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_LATEST_FAILED"
@@ -3250,8 +3250,8 @@ msgstr "Posljednji pokušaj provjere nije uspio, pa te informacije mogu biti zas
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_FAILED"
-msgid "The last core file integrity check failed"
-msgstr "Posljednja provjera integriteta datoteka jezgre nije uspjela"
+msgid "The last core file integrity check failed."
+msgstr "Posljednja provjera integriteta datoteka jezgre nije uspjela."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_UPTIME_UP"

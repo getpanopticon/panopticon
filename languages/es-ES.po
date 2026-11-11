@@ -3225,23 +3225,23 @@ msgstr "Integridad del núcleo"
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_NEVER_RUN"
-msgid "The core files have not been checked yet"
-msgstr "Los archivos del núcleo aún no se han comprobado"
+msgid "The core files have not been checked yet."
+msgstr "Los archivos del núcleo aún no se han comprobado."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_OK"
-msgid "No modified core files were found"
-msgstr "No se encontraron archivos del núcleo modificados"
+msgid "No modified core files were found."
+msgstr "No se encontraron archivos del núcleo modificados."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N"
-msgid "%d core files have been modified"
-msgstr "Se han modificado %d archivos del núcleo"
+msgid "%d core files have been modified."
+msgstr "Se han modificado %d archivos del núcleo."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N_1"
-msgid "One core file has been modified"
-msgstr "Se ha modificado un archivo del núcleo"
+msgid "One core file has been modified."
+msgstr "Se ha modificado un archivo del núcleo."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_LATEST_FAILED"
@@ -3250,8 +3250,8 @@ msgstr "El último intento de comprobación falló, por lo que esta información
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_INTEGRITY_FAILED"
-msgid "The last core file integrity check failed"
-msgstr "La última verificación de integridad de archivos del núcleo falló"
+msgid "The last core file integrity check failed."
+msgstr "La última verificación de integridad de archivos del núcleo falló."
 
 #, phpformat
 msgctxt "PANOPTICON_MAIN_SITES_LBL_UPTIME_UP"

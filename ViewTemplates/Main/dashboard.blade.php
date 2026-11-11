@@ -91,9 +91,14 @@ defined('AKEEBA') || die;
     </div>
     <div v-else-if="site.integrity.state === 'problems'">
         <a :href="site.integrity.url" class="text-decoration-none">
-            <span class="fa fa-fw fa-triangle-exclamation text-warning" aria-hidden="true"
+            <span class="position-relative d-inline-block" aria-hidden="true"
                   v-bs:tooltip="akeeba.System.Text.plural('PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N', site.integrity.modifiedCount) + (site.integrity.latestAttemptFailed ? ' ' + akeeba.System.Text._('PANOPTICON_MAIN_SITES_LBL_INTEGRITY_LATEST_FAILED') : '')"
-            ></span>
+            >
+                <span class="fa fa-fw fa-triangle-exclamation text-warning"></span>
+                <span v-if="site.integrity.latestAttemptFailed"
+                      class="fa fa-circle-xmark fa-xs text-danger position-absolute top-0 start-100 translate-middle"
+                ></span>
+            </span>
             <span class="visually-hidden">
                 @{{ akeeba.System.Text.plural('PANOPTICON_MAIN_SITES_LBL_INTEGRITY_PROBLEMS_N', site.integrity.modifiedCount) }}
                 <template v-if="site.integrity.latestAttemptFailed">@{{ akeeba.System.Text._('PANOPTICON_MAIN_SITES_LBL_INTEGRITY_LATEST_FAILED') }}</template>
