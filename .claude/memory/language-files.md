@@ -47,3 +47,20 @@ language, which loses information or breaks the page.
 
 **How to apply:** run `vendor/bin/phpunit tests/Unit/Language tests/Unit/Helper/LanguageToolsTest.php` after every
 language change. `LanguageFilesTest` loads each INI file through AWF and checks all of the above against en-GB.
+
+## Never create `.ini` translations by hand; `.po` entry format
+
+Translations are ALWAYS `.po` files (GNU gettext format) compiled to `.ini` files using `phing language`. Never create `.ini` translation files directly by hand.
+
+**Why:** The `.ini` files are generated output, not source. Manually created `.ini` files bypass the build process and will be overwritten or conflict with `phing language`. The `.po` file is the authoritative source.
+
+**How to apply:** When creating or updating translations:
+1. Write the `.po` file (e.g., `languages/de-DE.po`)
+2. Run `phing language` to compile it to the `.ini` file
+3. The compiled `.ini` has no section headers — just flat `KEY="value"` pairs in `.po` order
+
+**Format of `.po` files** (see `languages/fr-FR.po` as reference):
+- Header block: `msgid ""` / `msgstr ""` with metadata strings
+- Each entry: `#, phpformat` / `msgctxt "KEY"` / `msgid "English value"` / `msgstr "Translation"`
+- `msgctxt` = INI key name; `msgid` = en-GB source value; `msgstr` = translation
+- INI keys with `KEY = "value"` (spaces around `=`) also valid — seen in TinyMCE section
