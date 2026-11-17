@@ -12,6 +12,7 @@ Akeeba Panopticon 2.5.0
 # [HIGH] JSON API: task `params.sites` is limited to sites the user administers; `initiating_user` is forced to the caller [gh-1089]
 # [HIGH] Extension installation tasks re-check that the initiating user may install on each site before running [gh-1089]
 # [MEDIUM] `selfupdate:cleanup` left all tasks paused instead of resuming them
+# [MEDIUM] Listing or deleting items failed with SQL error 1064 when the table name prefix contained a hyphen
 # [LOW] Extensions: sorting by Site did nothing
 # [LOW] Push notifications: the VAPID contact was always noreply@example.com, not the Mail From address [gh-1094]
 # [LOW] Push notifications: one subscription with an unknown encoding held up every other pending notification [gh-1095]
