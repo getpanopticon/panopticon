@@ -47,7 +47,7 @@ Project memory lives in `.claude/memory/`. Read the matching file before startin
 | [`testing.md`](.claude/memory/testing.md) | Before writing or running tests, or when PHPUnit is missing from `vendor/` |
 | [`release-and-docker.md`](.claude/memory/release-and-docker.md) | Before a release, or before building, testing or publishing the Docker image |
 | [`related-projects.md`](.claude/memory/related-projects.md) | Before touching the connector extensions or wiki working copies |
-| [`build-and-distribution.md`](.claude/memory/build-and-distribution.md) | Before adding files under `assets/` or editing SCSS partials |
+| [`build-and-distribution.md`](.claude/memory/build-and-distribution.md) | Before adding files under `assets/`, editing SCSS partials, or updating an NPM package copied by `copy-static` (e.g. ALTCHA) |
 | [`list-view-conventions.md`](.claude/memory/list-view-conventions.md) | Before adding or changing a browse/list/edit view, its model or controller |
 | [`awf-blade-syntax.md`](.claude/memory/awf-blade-syntax.md) | Before writing or reviewing any `.blade.php` template |
 | [`task-callbacks.md`](.claude/memory/task-callbacks.md) | Before writing or changing a callback in `src/Task/` |

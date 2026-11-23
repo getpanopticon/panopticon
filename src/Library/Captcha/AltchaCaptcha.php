@@ -55,7 +55,7 @@ class AltchaCaptcha implements CaptchaInterface
 
 		return <<<HTML
 <script src="media/altcha/altcha.js" defer></script>
-<altcha-widget challengejson="{$challengeJson}" auto="onsubmit"></altcha-widget>
+<altcha-widget challenge="{$challengeJson}" auto="onsubmit"></altcha-widget>
 HTML;
 	}
 

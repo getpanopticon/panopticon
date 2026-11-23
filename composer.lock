@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13e79cf0bef5a94102bf3447d3be2445",
+    "content-hash": "9367fa8700d2eb9334ed18b24755c493",
     "packages": [
         {
             "name": "akeeba/awf",
@@ -9394,5 +9394,5 @@
     "platform-overrides": {
         "php": "8.3.999"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }

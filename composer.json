@@ -280,7 +280,7 @@
 				"to": "media/petite-vue/petite-vue.min.js"
 			},
 			{
-				"from": "node_modules/altcha/dist/altcha.umd.cjs",
+				"from": "node_modules/altcha/dist/main/altcha.umd.cjs",
 				"to": "media/altcha/altcha.js"
 			}
 		],

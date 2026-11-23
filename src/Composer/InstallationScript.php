@@ -109,7 +109,16 @@ abstract class InstallationScript
 
 			if ($type === 'file')
 			{
-				$container->fileSystem->copy($from, $to);
+				// The filesystem copy neither creates the target folder nor reports a missing source.
+				if (!is_dir(dirname($to)))
+				{
+					$container->fileSystem->mkdir(dirname($to));
+				}
+
+				if (!$container->fileSystem->copy($from, $to))
+				{
+					$io->writeError(sprintf('<warning>Could not copy %s to %s</warning>', $from, $to));
+				}
 
 				continue;
 			}

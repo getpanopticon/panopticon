@@ -9,6 +9,7 @@ Akeeba Panopticon 2.5.0
 ~ Push notifications: subscriptions use the standard aes128gcm encryption, not the legacy aesgcm [gh-1095]
 # [HIGH] Dashboard: action buttons still led to a raw HTML fragment after the table auto-refreshed [gh-1088]
 # [HIGH] JSON API: tasks created or modified with `params` or `storage` were saved with NULL parameters [gh-1089]
+# [HIGH] User registration: the ALTCHA CAPTCHA never loaded or completed, so every registration was rejected
 # [HIGH] JSON API: task `params.sites` is limited to sites the user administers; `initiating_user` is forced to the caller [gh-1089]
 # [HIGH] Extension installation tasks re-check that the initiating user may install on each site before running [gh-1089]
 # [MEDIUM] `selfupdate:cleanup` left all tasks paused instead of resuming them
