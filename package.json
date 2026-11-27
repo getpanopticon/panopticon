@@ -20,7 +20,7 @@
 		"choices.js": "^11.2.3",
 		"petite-vue": "^0.4.1",
 		"altcha": "^3.7.0",
-		"terser": "^5.51.2",
+		"terser": "^5.51.4",
 		"tinymce": "^8.10.2"
 	}
 }
